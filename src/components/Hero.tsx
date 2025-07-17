@@ -17,13 +17,8 @@ const Hero = () => {
   };
 
   return (
-    <section
-  id="inicio"
-  className="relative min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
-  style={{ backgroundImage: "url('/src/public/rda.png')" }}
->
-  <div className="absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-black opacity-70" />
-  <div className="relative z-10">
+    <section id="inicio" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-black via-gray-900 to-black">
+      {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0 bg-gradient-to-r from-orange-500/20 to-transparent"></div>
       </div>
