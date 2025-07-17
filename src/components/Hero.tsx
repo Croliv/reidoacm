@@ -20,7 +20,7 @@ const Hero = () => {
     <section
   id="inicio"
   className="relative min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
-  style={{ backgroundImage: "url('/caminho/da-imagem.jpg')" }}
+  style={{ backgroundImage: "url('/src/public/rda.png')" }}
 >
   <div className="absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-black opacity-70" />
   <div className="relative z-10">
